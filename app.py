@@ -1,5 +1,5 @@
-from turtle import width
 import streamlit as st
+from turtle import width
 from PIL import Image
 
 
