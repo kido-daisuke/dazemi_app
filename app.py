@@ -1,4 +1,4 @@
-import tkinter as tk
+#import tkinter as tk
 import streamlit as st
 #from turtle import width
 from PIL import Image
