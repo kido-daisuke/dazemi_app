@@ -198,47 +198,47 @@ else:
 
 interest_now = st.text_input('以上の「興味探しの中で」今最も興味のある分野は何ですか？')
 
-st.write('上に[Tableau,Python,Modeler,Googleアナリティクス,Webデザイン,Webライティング,SNSマーケティング,コピーライティング]のどれかを[]内の表記通りに記入しよう！')
+st.write('上に[ Tableau , Python , Modeler , Googleアナリティクス , Webデザイン , Webライティング , SNSマーケティング , コピーライティング ]のどれかを[]内の表記通りに記入しよう！')
 
 if interest_now == 'Tableau':
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
     expander.write("""
-        仁田原 良信(4年)、諸富 樹(3年)、、、、、、、、、、、、、
+        仁田原 良信(4年)、諸富 樹(3年)、外宮 拓実(3年)、、、、、、、、、、、、
     """)
 elif interest_now == 'Python':
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
     expander.write("""
-        藤岡 美咲(4年)、重松 隼輔(3年)、、、、、、、、、、、、
+        藤岡 美咲(4年)、重松 隼輔(3年)、外宮 拓実(3年)、福永 匠(3年)、、、、、、、、、、
     """)
 elif interest_now == 'Modeler':
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
     expander.write("""
-        太宰 潮(教授)、、、、、、、、、、、、
+        太宰 潮(教授)、外宮 拓実(3年)、、、、、、、、、、、
     """)
 elif interest_now == 'Googleアナリティクス':
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
     expander.write("""
-        樋口 瑠星(3年)、、、、、、、、、、、、
+        樋口 瑠星(3年)、外宮 拓実(3年)、、、、、、、、、、、
     """)
 elif interest_now == 'Webデザイン':
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
     expander.write("""
-        デザイン人(3年)、、、、、、、、、、、、
+        デザイン人(3年)、外宮 拓実(3年)、、、、、、、、、、、
     """)
 elif interest_now == 'Webライティング':
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
     expander.write("""
-        ライティング人(3年)、、、、、、、、、、、、
+        ライティング人(3年)、外宮 拓実(3年)、、、、、、、、、、、
     """)
 elif interest_now == 'SNSマーケティング':
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
     expander.write("""
-        光本 恵一郎(3年)、、、、、、、、、、、、
+        光本 恵一郎(3年)、外宮 拓実(3年)、、、、、、、、、、、
     """)
 else :
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
     expander.write("""
-        コピー人(3年)、、、、、、、、、、、、
+        コピー人(3年)、外宮 拓実(3年)、、、、、、、、、、、
     """)
 
 #サイドバー
