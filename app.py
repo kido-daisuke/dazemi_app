@@ -233,7 +233,7 @@ elif interest_now == 'Webライティング':
 elif interest_now == 'SNSマーケティング':
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
     expander.write("""
-        光本 恵一郎(3年)、外宮 拓実(3年)、、、、、、、、、、、
+        光本 恵一郎(3年)、外宮 拓実(3年)
     """)
 else :
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
