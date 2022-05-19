@@ -196,6 +196,62 @@ else:
             else:
                 st.write('他の分野もチェックしてみてはどうですか？')
 
+interest_now = st.text_input('以上の「興味探しの中で」今最も興味のある分野は何ですか？')
+
+st.write('上に[Tableau,Python,Modeler,Googleアナリティクス,Webデザイン,Webライティング,SNSマーケティング,コピーライティング]のどれかを[]内の表記通りに記入しよう！')
+
+if interest_now == 'Tableau':
+    expander = st.expander("この先輩方に聞いて見ると良いかもです！")
+    expander.write("""
+        仁田原 良信(4年)、諸富 樹(3年)、、、、、、、、、、、、、
+    """)
+elif interest_now == 'Python':
+    expander = st.expander("この先輩方に聞いて見ると良いかもです！")
+    expander.write("""
+        藤岡 美咲(4年)、重松 隼輔(3年)、、、、、、、、、、、、
+    """)
+elif interest_now == 'Modeler':
+    expander = st.expander("この先輩方に聞いて見ると良いかもです！")
+    expander.write("""
+        太宰 潮(教授)、、、、、、、、、、、、
+    """)
+elif interest_now == 'Googleアナリティクス':
+    expander = st.expander("この先輩方に聞いて見ると良いかもです！")
+    expander.write("""
+        樋口 瑠星(3年)、、、、、、、、、、、、
+    """)
+elif interest_now == 'Webデザイン':
+    expander = st.expander("この先輩方に聞いて見ると良いかもです！")
+    expander.write("""
+        デザイン人(3年)、、、、、、、、、、、、
+    """)
+elif interest_now == 'Webライティング':
+    expander = st.expander("この先輩方に聞いて見ると良いかもです！")
+    expander.write("""
+        ライティング人(3年)、、、、、、、、、、、、
+    """)
+elif interest_now == 'SNSマーケティング':
+    expander = st.expander("この先輩方に聞いて見ると良いかもです！")
+    expander.write("""
+        光本 恵一郎(3年)、、、、、、、、、、、、
+    """)
+else :
+    expander = st.expander("この先輩方に聞いて見ると良いかもです！")
+    expander.write("""
+        コピー人(3年)、、、、、、、、、、、、
+    """)
+
+#サイドバー
+st.sidebar.title('現在のあなた')
+st.sidebar.write('常に自分のことを理解しておくと、今すべき行動がわかるので成長が速くなります。')
+your_number = st.sidebar.text_input('あなたの学籍番号')
+your_name = st.sidebar.text_input('あなたの名前')
+st.sidebar.write('現在あなたの興味のある分野：')
+st.sidebar.write(interest_now)
+
+
+
+
 
 
 #先輩表
