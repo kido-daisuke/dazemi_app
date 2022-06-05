@@ -210,7 +210,7 @@ if interest_now == 'Tableau':
 elif interest_now == 'Python':
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
     expander.write("""
-        重松 隼輔(3年)、外宮 拓実(3年)、諸富 樹(3年)、武石 瑛(3年)、木戸 大輔(3年)
+        重松 隼輔(3年)、外宮 拓実(3年)、武石 瑛(3年)、木戸 大輔(3年)
     """)
 elif interest_now == 'Modeler':
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
@@ -235,7 +235,7 @@ elif interest_now == 'Webライティング':
 elif interest_now == 'SNSマーケティング':
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
     expander.write("""
-        光本 恵一郎(3年)、木戸 大輔(3年)
+        光本 恵一朗(3年)、木戸 大輔(3年)
     """)
 else :
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
@@ -363,31 +363,3 @@ st.sidebar.write(interest_now)
 
 
 
-
-
-#先輩表
-#st.title('太宰ゼミ 先輩表(得意分野記載)')
-
-#col1, col2, = st.columns(2)
-
-#with col1:
-    #st.write('3年生[13期生]')
-    #st.header("樋口 瑠星")
-    #st.image("https://static.streamlit.io/examples/dog.jpg")
-    #st.header("光本 恵一郎")
-    #st.image("https://static.streamlit.io/examples/dog.jpg")
-    #st.header("重松 隼輔")
-    #st.image("https://static.streamlit.io/examples/dog.jpg")
-    #st.header("金丸 智央")
-    #st.image("https://static.streamlit.io/examples/dog.jpg")
-
-#with col2:
-    #st.write('4年生[12期生]')
-    #st.header("仁田原 良信")
-    #st.image("https://static.streamlit.io/examples/dog.jpg")
-    #st.header("藤岡 美咲")
-    #st.image("https://static.streamlit.io/examples/dog.jpg")
-    #st.header("口元 創太")
-    #st.image("https://static.streamlit.io/examples/dog.jpg")
-    #st.header("平原 萌々佳")
-    #st.image("https://static.streamlit.io/examples/dog.jpg")
