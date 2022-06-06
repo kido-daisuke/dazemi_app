@@ -256,7 +256,7 @@ with col1:
     st.image("ushio-img/hukunaga.png")
     st.image("ushio-img/kana.png")
     st.image("ushio-img/kanamaru.png")
-    st.image("ushio-img/木戸大輔.png")
+    st.image("ushio-img/kido.png")
     st.image("ushio-img/maesaki.png")
     st.image("ushio-img/mitumoto.png")
     st.image("ushio-img/miyazaki.png")
