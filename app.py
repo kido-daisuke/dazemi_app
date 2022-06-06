@@ -242,10 +242,15 @@ elif interest_now == '七並べ':
     expander.write("""
         堀 薫(3年)
     """)
-else :
+elif interest_now == '七並べ':
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
     expander.write("""
         原田 佳奈(3年)、木戸 大輔(3年)
+    """)
+else :
+    expander = st.expander("この先輩方に聞いて見ると良いかもです！")
+    expander.write("""
+        入力されていません!または誤字があります！
     """)
 
 #先輩スキル図鑑
