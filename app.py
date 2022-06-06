@@ -242,7 +242,7 @@ elif interest_now == '七並べ':
     expander.write("""
         堀 薫(3年)
     """)
-elif interest_now == '七並べ':
+elif interest_now == '7並べ':
     expander = st.expander("この先輩方に聞いて見ると良いかもです！")
     expander.write("""
         原田 佳奈(3年)、木戸 大輔(3年)
